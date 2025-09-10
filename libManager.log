@@ -1,0 +1,127 @@
+\o Program:		@(#)$CDS: libManager version 6.1.5 - CAT32 10/23/2012 17:36 (cat91amd) $
+\o Sub version:		sub-version  s011 
+\o Arguments:		-unmapped -mpssession virtuoso3678 -mpshost cadence 
+\o Working Directory:	cadence:/home/buet/Shovan
+\o Qt version: 		4.5.3
+\o changeWorkingDir("/home/buet/Shovan") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Log file is "/home/buet/Shovan/libManager.log".
+\o Opening libManager window.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a nrSetCurrentWindow(cdsLibManager)
+\w Warning: The directory: '/home/buet/homelib' does not exist
+\w 	but was defined in libFile '/home/buet/cadence/IC615/share/cdssetup/cds.lib' for Lib 'homelib'.
+\w Warning: The directory: '/home/buet/almahmud' does not exist
+\w 	but was defined in libFile '/home/buet/cadence/IC615/share/cdssetup/cds.lib' for Lib 'almahmud'.
+\a nrResizeWindow(cdsLibManager list(0 25 1714 823))
+\a cdsLibManager->libListBox->value = "Inverter"
+\a cdsLibManager->libLineEdit->value = "Inverter"
+\a cdsLibManager->cellListBox->value = "inverter"
+\a cdsLibManager->cellListBox->value = "inverter_tb"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "inverter"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "inverter"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a lmgrLogShowPopup("mainListPopup2" 27 6 2 "layout")
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: The directory: '/home/buet/homelib' does not exist
+\w 	but was defined in libFile '/home/buet/cadence/IC615/share/cdssetup/cds.lib' for Lib 'homelib'.
+\w Warning: The directory: '/home/buet/almahmud' does not exist
+\w 	but was defined in libFile '/home/buet/cadence/IC615/share/cdssetup/cds.lib' for Lib 'almahmud'.
+\a cdsLibManager->libListBox->value = "Inverter"
+\a cdsLibManager->libLineEdit->value = "Inverter"
+\a cdsLibManager->cellListBox->value = "inverter"
+\a cdsLibManager->cellLineEdit->value = "inverter"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: The directory: '/home/buet/homelib' does not exist
+\w 	but was defined in libFile '/home/buet/cadence/IC615/share/cdssetup/cds.lib' for Lib 'homelib'.
+\w Warning: The directory: '/home/buet/almahmud' does not exist
+\w 	but was defined in libFile '/home/buet/cadence/IC615/share/cdssetup/cds.lib' for Lib 'almahmud'.
+\a cdsLibManager->libListBox->value = "Inverter"
+\a cdsLibManager->libLineEdit->value = "Inverter"
+\a cdsLibManager->cellListBox->value = "inverter"
+\a cdsLibManager->cellLineEdit->value = "inverter"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: The directory: '/home/buet/homelib' does not exist
+\w 	but was defined in libFile '/home/buet/cadence/IC615/share/cdssetup/cds.lib' for Lib 'homelib'.
+\w Warning: The directory: '/home/buet/almahmud' does not exist
+\w 	but was defined in libFile '/home/buet/cadence/IC615/share/cdssetup/cds.lib' for Lib 'almahmud'.
+\a cdsLibManager->libListBox->value = "Inverter"
+\a cdsLibManager->libLineEdit->value = "Inverter"
+\a cdsLibManager->cellListBox->value = "inverter"
+\a cdsLibManager->cellLineEdit->value = "inverter"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "Redwan"
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = "Redwan"
+\a cdsLibManager->cellListBox->value = "Inverter_Param"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "INVERTER"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "INVERTER"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\o libManager is exiting.
+\a exit(0)

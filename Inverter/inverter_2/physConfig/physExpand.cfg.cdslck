@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      buet
+HostName                       cadence
+ProcessIdentifier              3254
+ProcessCreationTime_UTC        1757373213
+ProcessCreationTime_Readable   Tue Sep  9 05:13:33 2025 BDT
+AppIdentifier                  /home/buet/cadence/IC615/tools/dfII/bin/32bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /home/buet/Shovan/Inverter/inverter_2/physConfig/physExpand.cfg
+TimeEditLocked                 Tue Sep  9 05:44:56 2025 BDT

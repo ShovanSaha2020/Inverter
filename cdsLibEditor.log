@@ -1,0 +1,22 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.5 - CAT32 10/23/2012 17:38 (cat91amd) $
+\o Sub version:		sub-version  s011 
+\o Arguments:		-cdslib /home/buet/Shovan/cds.lib -mpssession virtuoso3678 -mpshost cadence 
+\o Working Directory:	cadence:/home/buet/Shovan
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		4.5.3
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "gpdk090"
+\a nrResizeWindow(cdsLibEditor list(0 51 500 400))
+\a nrResizeWindow(cdsLibEditor list(0 51 1718 827))
+\a nrListItemAction(cdsLibEditor->mainTable 12 1)
+\o Active cell: 12 1 "/home/buet/inverter"
+\a nrListItemAction(cdsLibEditor->mainTable 5 1)
+\o Active cell: 5 1 "/home/buet/almahmud"
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(0 51 500 400))
+\a nrResizeWindow(cdsLibEditor list(680 96 500 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a cdsLibEditor->fileExitButton->value = t
+\a nrSetWindowVisibility(cdsLibEditor "hide")
+\a exit(0)
